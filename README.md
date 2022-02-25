@@ -37,5 +37,5 @@ Se creo una clase llamada ***Lang*** la cual contiene:
 
 # Ejecutar
 
-python main.py
+  python main.py
 
