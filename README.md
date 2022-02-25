@@ -34,3 +34,8 @@ Se creo una clase llamada ***Lang*** la cual contiene:
 # Diagrama de flujo
 
 ![alt text](https://github.com/victrsanchez/tangelolatam-challenge/blob/master/diagrama_de_flujo.png)
+
+# Ejecutar
+
+python main.py
+
