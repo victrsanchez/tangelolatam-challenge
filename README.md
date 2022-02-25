@@ -31,5 +31,6 @@ Se creo una clase llamada ***Lang*** la cual contiene:
 - Manejo de errores:
   Para el manejo de errores se implementaron las excepciones en cada uno de los métodos de la clase
   
-  # Diagrama de flujo
+# Diagrama de flujo
 
+![alt text](https://github.com/victrsanchez/tangelolatam-challenge/blob/master/diagrama_de_flujo.png)
