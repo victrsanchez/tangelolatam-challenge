@@ -10,14 +10,16 @@ class Lang:
     df = None
 
     def __init__(self):
-        print("Creación de la clase");
+        """
+        Se Inicaliza un dataframe vacio con las columnas Region, Country, Language, Time
+        """
+        self.df = pd.DataFrame(columns=['Region','Country','Language','Time'])
         
 
     def create_df(self):
         """
         Este método tiene como objetivo crear un dataframe con la librería de pandas.
 
-        1.- Inicalizar un dataframe vacio con las columnas Region, Country, Language, Time
         1.- Consultar restcountries.com.
         2.- Convertir la respuesta a JSON
         3.- Recorrer cada uno de los registros obtenidos de restcountries.com
@@ -28,8 +30,7 @@ class Lang:
 
         Toda esta información se almance en el atributo df de la clase
         """
-        try:
-            self.df = pd.DataFrame(columns=['Region','Country','Language','Time'])
+        try:            
             languages_by_contry_response = requests.get("https://restcountries.com/v3.1/all")
             languages_by_contry_json = languages_by_contry_response.json()
 
